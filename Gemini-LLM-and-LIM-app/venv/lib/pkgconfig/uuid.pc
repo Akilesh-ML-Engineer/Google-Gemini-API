@@ -1,0 +1,11 @@
+prefix=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv
+exec_prefix=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv
+libdir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/lib
+includedir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

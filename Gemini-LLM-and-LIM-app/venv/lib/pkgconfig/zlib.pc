@@ -1,0 +1,13 @@
+prefix=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv
+exec_prefix=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv
+libdir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/lib
+sharedlibdir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/lib
+includedir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

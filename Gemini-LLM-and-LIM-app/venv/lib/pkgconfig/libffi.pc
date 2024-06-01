@@ -1,0 +1,11 @@
+prefix=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

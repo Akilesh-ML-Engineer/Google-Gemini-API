@@ -1,0 +1,5 @@
+#!/home/asa/Documents/Github-Repository/Google-Gemini-API/Gemini-LLM-and-LIM-app/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
